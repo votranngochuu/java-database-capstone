@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Doctor Portal — Appointments</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;margin:0;padding:0}
+    .wrap{max-width:980px;margin:36px auto;background:#fff;padding:24px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+    h1{margin:0 0 10px;color:#0b1220}
+    .meta{color:#475569;margin-bottom:16px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:12px;border-bottom:1px solid #edf2f7;text-align:left}
+    th{background:#f8fafc;color:#334155}
+    .badge{display:inline-block;padding:6px 8px;border-radius:6px;background:#eef2ff;color:#1e40af;font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>My Appointments</h1>
+    <div class="meta">Dr. Jane Doe • Cardiology <span style="float:right;"><span class="badge">Today</span></span></div>
+
+    <table aria-label="appointments">
+      <thead>
+        <tr><th>Patient</th><th>Date</th><th>Time</th><th>Reason</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Alice Brown</td><td>2025-10-03</td><td>09:00</td><td>Follow-up</td><td>Confirmed</td></tr>
+        <tr><td>Bob Wilson</td><td>2025-10-03</td><td>10:00</td><td>New patient</td><td>Pending</td></tr>
+        <tr><td>Charlie Zhang</td><td>2025-10-03</td><td>11:30</td><td>Prescription</td><td>Confirmed</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
